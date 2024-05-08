@@ -1,28 +1,6 @@
 import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
-
-import PropTypes from "prop-types"; // Import the PropTypes package
-
-const Description = ({ desc }) => {
-  if (!desc) return;
-  const data = desc.split("$.");
-  return (
-    <ol className="mb-4 text-neutral-400">
-      {data.map(
-        (item, index) =>
-          item.length > 1 && (
-            <li key={index} className="mb-2" type="1">
-              {item}
-            </li>
-          )
-      )}
-    </ol>
-  );
-};
-
-Description.propTypes = {
-  desc: PropTypes.string, // Add the prop validation for 'desc'
-};
+import Description from "./Description";
 
 const Experience = () => {
   return (
@@ -58,7 +36,11 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h6>
-              <Description desc={experience.description} />
+              <Description
+                desc={experience.description}
+                className="mb-4 text-neutral-400"
+                type={1}
+              />
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}

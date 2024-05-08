@@ -3,13 +3,17 @@ import project2 from "../assets/projects/video-call.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I worked as a web developer, mainly focusing on backend development using Laravel for over 2 years. Recently, I started learning the MERN stack to transition into a full-stack developer. This change reflects my enthusiasm for tackling new challenges and keeping up with industry advancements.
+export const HERO_CONTENT = `$.I worked as a web developer, mainly focusing on backend development using Laravel for over 2 years. Recently, I started learning the MERN stack to transition into a full-stack developer. This change reflects my enthusiasm for tackling new challenges and keeping up with industry advancements.
 
-During my time in backend development, I specialized in technologies like Laravel, PHP, and MySQL, where I built efficient and secure web applications. Now, as I delve into frontend technologies such as React, Node.js, MongoDB, and Express.js, I aim to create dynamic and scalable full-stack projects.
+$.During my time in backend development, I specialized in technologies like Laravel, PHP, and MySQL, where I built efficient and secure web applications. Now, as I delve into frontend technologies such as React, Node.js, MongoDB, and Express.js, I aim to create dynamic and scalable full-stack projects.
 
-I am currently seeking opportunities in full-stack development roles to utilize my extensive backend experience and emerging frontend skills in crafting innovative and impactful web solutions.`;
+$.I am currently seeking opportunities in full-stack development roles to utilize my extensive backend experience and emerging frontend skills in crafting innovative and impactful web solutions.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile web developer with a passion for creating efficient and user-friendly web applications. With 2+ years of professional experience, I have worked with a variety of technologies, including laravel, javascript, Node.js, MySQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `$.I am a dedicated and versatile web developer with a passion for creating efficient and user-friendly web applications. With 2+ years of professional experience, I have worked with a variety of technologies, including laravel, javascript, Node.js, MySQL. 
+
+$.My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
+$.I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. 
+$.Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {

@@ -1,6 +1,7 @@
 import { HERO_CONTENT, INFO } from "../constants";
 import profilePic from "../assets/demoProfile.jpg";
 import { motion } from "framer-motion";
+import Description from "./Description";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -33,14 +34,17 @@ const Hero = () => {
             >
               {INFO.role}
             </motion.span>
-            <motion.p
+            <motion.div
               variants={container(1)}
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              {HERO_CONTENT}
-            </motion.p>
+              <Description
+                desc={HERO_CONTENT}
+                className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              />
+            </motion.div>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
