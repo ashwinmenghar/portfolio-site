@@ -38,7 +38,7 @@ const Experience = () => {
               </h6>
               <Description
                 desc={experience.description}
-                className="mb-4 text-neutral-400"
+                className="mb-4 text-neutral-400 mx-4"
                 type={1}
               />
               {experience.technologies.map((tech, index) => (
