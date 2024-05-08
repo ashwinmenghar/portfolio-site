@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/video-call.png";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I worked as a web developer, mainly focusing on backend development using Laravel for over 2 years. Recently, I started learning the MERN stack to transition into a full-stack developer. This change reflects my enthusiasm for tackling new challenges and keeping up with industry advancements.
@@ -16,21 +16,20 @@ export const EXPERIENCES = [
     year: "July 2021 - October 2023",
     role: "Web Developer",
     company: "Livelyworks",
-    description: `
-    1. Optimized web applications using Laravel, Js, PHP to enhance user experience, ensuring seamless functionality.
-    2. Programmed high-end projects from scratch, employing innovative solutions and cutting-edge technologies.
-    3. Influenced collaborative efforts by mentoring interns, fostering a cohesive team environment for efficient project development.
-    4. Solved complex technical challenges, collaborating closely with frontend teams to deliver successful and user-friendly applications.
-    5. Accomplished in building and maintaining robust web solutions, showcasing strong problem-solving skills and technical expertise.
+    description: `$. Optimized web applications using Laravel, Js, PHP to enhance user experience, ensuring seamless functionality.
+        $. Programmed high-end projects from scratch, employing innovative solutions and cutting-edge technologies.
+        $. Influenced collaborative efforts by mentoring interns, fostering a cohesive team environment for efficient project development.
+        $. Solved complex technical challenges, collaborating closely with frontend teams to deliver successful and user-friendly applications.
+        $. Accomplished in building and maintaining robust web solutions, showcasing strong problem-solving skills and technical expertise.
     `,
-    technologies: ["Javascript", "Laravel(php)", "Node.js", "MySql"],
+    technologies: ["Javascript", "Laravel(php)", "Php", "MySql"],
   },
   {
     year: "April 2021 - May 2021",
     role: "Web development Intern",
     company: "Internshala",
-    description: `Successfully completed a six weeks online certified training on Web Development. The training consisted of HTML & CSS, Bootstrap, SQL and PHP modules`,
-    technologies: ["HTML", "CSS", "Bootstrap", "PHP", "SQL"],
+    description: `Successfully completed a six weeks online certified training on Web Development. The training consisted of Html & Css, Bootstrap, SQL and PHP modules`,
+    technologies: ["Html", "Css", "Bootstrap", "Php", "Sql"],
   },
 ];
 
@@ -41,9 +40,9 @@ export const PROJECTS = [
     description:
       "Build a FullStack X(former Twitter) clone using latest tech stack that allows users to create and post tweets, follow other users, and like, and view their own profiles and the profiles of other users",
     technologies: [
-      "HTML",
-      "CSS",
-      "TailwindCSS",
+      "Html",
+      "Css",
+      "TailwindCss",
       "Next.js",
       "Node.js",
       "GraphQL",
@@ -64,9 +63,9 @@ export const PROJECTS = [
     description:
       "A Video calling app that allows users to create and join video calls.",
     technologies: [
-      "HTML",
-      "CSS",
-      "EJS",
+      "Html",
+      "Css",
+      "Ejs",
       "Bootstrap",
       "JavaScript",
       "Node.js",
@@ -79,7 +78,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwindcss"],
+    technologies: ["Html", "Css", "React", "TailwindCss"],
   },
   {
     title: "Echo Express Blogging Platform",
@@ -87,11 +86,11 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing and user profiles.",
     technologies: [
-      "HTML",
-      "CSS",
+      "Html",
+      "Css",
       "React",
-      "Tailwindcss",
-      "Nodejs",
+      "TailwindCss",
+      "Node.js",
       "Express",
       "MongoDB",
     ],

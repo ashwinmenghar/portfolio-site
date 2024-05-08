@@ -21,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-bold tracking-tight lg:mt-16 lg:text-7xl"
             >
               {INFO.name}
             </motion.h2>
@@ -50,7 +50,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
-              alt="Kevin Rush"
+              alt="Ashwin Menghar"
             />
           </div>
         </div>
