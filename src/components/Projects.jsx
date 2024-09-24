@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import Description from "./Description";
 
 const Projects = () => {
   return (
@@ -35,8 +36,18 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-4 text-neutral-400">{project.description}</p>
+              {/* <Link href="/nextpage?param1=value1&param2=value2">
+                <div>Go to next page</div>
+              </Link> */}
+              <a href={project.link} target="_blank">
+                <h6 className="mb-2 font-semibold">{project.title}</h6>
+              </a>
+              {/* <p className="mb-4 text-neutral-400">{project.description}</p> */}
+              <Description
+                desc={project.description}
+                className="mb-4 text-neutral-400 mx-4"
+                type={1}
+              />
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}

@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/video-call.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `$.I worked as a web developer, mainly focusing on backend development using Laravel for over 2 years. Recently, I started learning the MERN stack to transition into a full-stack developer. This change reflects my enthusiasm for tackling new challenges and keeping up with industry advancements.
 
@@ -39,10 +40,34 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "AI Content Generator Tool",
+    image: project5,
+    link: "https://ai-content-generator.ashwinmenghar.buzz/",
+    description: `$. Developed an AI-powered content generator SaaS application using Gemini, increasing content creation efficiency by 40%. 
+      $.Integrated Clerk for secure user authentication, enhancing data security measures and reducing unauthorized access incidents by 50%.
+      $. Optimized real-time data processing in Redis, improving application responsiveness by 30%. $. Managed subscription services with Razorpay, streamlining payment processes and increasing subscription retention by 20%.`,
+    technologies: [
+      "Html",
+      "Css",
+      "TailwindCss",
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Redis",
+      "TypeScript",
+      "Gemini",
+      "Razorpay",
+      "Clerk",
+    ],
+  },
+  {
     title: "X-Clone",
     image: project1,
-    description:
-      "Build a FullStack X(former Twitter) clone using latest tech stack that allows users to create and post tweets, follow other users, and like, and view their own profiles and the profiles of other users",
+    link: "https://x-clone-psi.vercel.app/",
+    description: `$. Developed a full-stack Twitter clone using Next.js, improving page load times by 40%. 
+      $. Reduced database query times by 30% by implementing Prisma ORM with PostgreSQL. 
+      $.Integrated Redis for query caching, reducing API response times by 50%. 
+      $. Utilized Google OAuth 2.0 and JWT for authentication, enhancing data security.`,
     technologies: [
       "Html",
       "Css",
@@ -64,6 +89,7 @@ export const PROJECTS = [
   {
     title: "Video Call App",
     image: project2,
+    link: "https://github.com/ashwinmenghar/video-call-app",
     description:
       "A Video calling app that allows users to create and join video calls.",
     technologies: [
@@ -80,6 +106,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    link: "https://portfolio.ashwinmenghar.buzz/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["Html", "Css", "React", "TailwindCss"],
@@ -87,6 +114,7 @@ export const PROJECTS = [
   {
     title: "Echo Express Blogging Platform",
     image: project4,
+    link: "https://echo-express-blogging.netlify.app/",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing and user profiles.",
     technologies: [
